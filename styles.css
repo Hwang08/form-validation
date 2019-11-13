@@ -12,7 +12,7 @@
 }
 
 body{
-	background: #5f6769;
+  background: linear-gradient(#085078, rgb(23, 131, 119));
 }
 
 input{
@@ -31,10 +31,11 @@ textarea{
   transform: translate(-50%,-50%);
   max-width: 600px;
   width: 100%;
-  background: grey;
+  background: linear-gradient(#085078, rgb(23, 131, 119));
+
   padding: 25px;
   border-radius: 5px;
-  box-shadow: 9px 9px 2px #5b78c7;
+  box-shadow: 0px 0px 100px 10px #000;
 }
 
 .wrapper h2{
@@ -68,7 +69,7 @@ textarea{
 }
 
 .wrapper .contact-btn input[type="submit"]{
-  border: 5px solid #5b78c7;
+  border: 5px solid #085078;
   margin-top: 15px;
   padding: 10px;
   text-align: center;
@@ -86,7 +87,7 @@ textarea{
 
 .wrapper .contact-btn input[type="submit"]:hover{
   /* button color on hover */
-	background: #5b78c7;
+	background: #085078;
   /* font color on hover */
   color: whitesmoke;
 }
@@ -111,7 +112,7 @@ h4{
 
 nav{
   height:10vh;
-  background: #5b78c7;
+  background: #085078;
 }
 
 .nav-links{
