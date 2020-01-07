@@ -1,6 +1,6 @@
 # form-validation
 
-Basic form validation.
+Form validation.
 
 - Checks if the Name is greater than 5 characters if not the error message appears: "Please Enter valid Name"
 - Checks if the Subject is greater than 5 characters if not the error message appears: "Please Enter Correct Subject"
