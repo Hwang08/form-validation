@@ -2,80 +2,80 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav id="nav">
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+  <nav id="nav">
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <ul class="nav-links">
+      <li id="logo-li">
+        <a id="logo" href="http://www.pathwang.com"><img src="PMH1.5.png" alt=""></a>
+      </li>
+      <li class="nav-li">
+        <a class="btn" href="https://www.linkedin.com/in/patrick-hwang-695275179/">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+      </li>
+      <li class="nav-li">
+        <a class="btn" href="https://github.com/Hwang08">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </li>
+      <li class="nav-li">
+        <a class="btn" href="https://twitter.com/PatHwang8">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <section class="container">
+    <div class="wrapper">
+      <h1>Contact Us</h1>
+      <div id="error_message">
+
+      </div>
+      <form action="" id="myform" onsubmit="return validate();">
+        <div class="input_field">
+          <input type="text" placeholder="Name" id="name">
         </div>
-
-        <ul class="nav-links">
-            <li id="logo-li">
-                <a id="logo" href="http://www.pathwang.com"><img src="GrafitiA2colorcircle.png" alt=""></a>
-            </li>
-            <li class="nav-li">
-                <a class="btn" href="https://www.linkedin.com/in/patrick-hwang-695275179/">
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </a>
-            </li>
-            <li class="nav-li">
-                <a class="btn" href="https://github.com/Hwang08">
-                    <i class="fab fa-github fa-lg"></i>
-                </a>
-            </li>
-            <li class="nav-li">
-                <a class="btn" href="https://twitter.com/PatHwang8">
-                    <i class="fab fa-twitter fa-lg"></i>
-                </a>
-            </li>
-        </ul>
-
-    </nav>
-
-    <section class="container">
-        <div class="wrapper">
-            <h1>Contact Us</h1>
-            <div id="error_message">
-
-            </div>
-            <form action="" id="myform" onsubmit="return validate();">
-                <div class="input_field">
-                    <input type="text" placeholder="Name" id="name">
-                </div>
-                <div class="input_field">
-                    <input type="text" placeholder="Subject" id="subject">
-                </div>
-                <div class="input_field">
-                    <input type="text" placeholder="Phone: Only enter numbers, no spaces. e.g. 2223334444" id="phone">
-                </div>
-                <div class="input_field">
-                    <input type="email" placeholder="Email" id="email">
-                </div>
-                <div class="input_field">
-                    <textarea rows="10" cols="30" placeholder="Message over 20 characters." id="message"></textarea>
-                </div>
-                <h4>Submit button doesnt actually submit the form. It is there for testing the functionality of the form
-                    validation only. Try it out. Click the submit button without typing anything into the sections and
-                    see the error message.</h4>
-                <div class="contact-btn">
-                    <input type="submit">
-                </div>
-            </form>
+        <div class="input_field">
+          <input type="text" placeholder="Subject" id="subject">
         </div>
-    </section>
+        <div class="input_field">
+          <input type="text" placeholder="Phone: Only enter numbers, no spaces. e.g. 2223334444" id="phone">
+        </div>
+        <div class="input_field">
+          <input type="email" placeholder="Email" id="email">
+        </div>
+        <div class="input_field">
+          <textarea rows="10" cols="30" placeholder="Message over 20 characters." id="message"></textarea>
+        </div>
+        <h4>Submit button doesnt actually submit the form. It is there for testing the functionality of the form
+          validation only. Try it out. Click the submit button without typing anything into the sections and
+          see the error message.</h4>
+        <div class="contact-btn">
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </section>
 
-    <footer id="contact-footer">
-        &copy 2019, Patrick Hwang
-    </footer>
+  <footer id="contact-footer">
+    &copy 2019, Patrick Hwang
+  </footer>
 
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>

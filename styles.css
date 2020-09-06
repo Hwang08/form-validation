@@ -111,7 +111,7 @@ h4{
 /* ----------------------------------------------------------- */
 
 nav{
-  height:10vh;
+  height: 100px;
   background: #085078;
 }
 
@@ -123,15 +123,14 @@ nav{
   width: 100%;
   /* Ul 100% of the nav height */
   height: 100%;
-  /* Horizontally aligns li */
-  justify-content: space-around;
-  /* Veritcally aligns li */
+  justify-content: center;
   align-items: center;
 }
 
 .nav-links #logo-li{
-  margin: 3px auto 2px 10px;
-  /* margin-right: auto; */
+  /* margin: 3px auto 2px 10px; */
+  margin: 0px auto 0px 10px;
+  padding: 0px !important;
 }
 
 #logo:after {
@@ -139,10 +138,13 @@ nav{
 	width: 3px;
 	height: 3px;
 	display: block;
-	transition: 500ms;
+  transition: 500ms;
+  margin: 0 !important;
+  padding: 0 !important;
   }
 
 #logo:hover:after {
+  margin: 0 !important;
   font-size: .5em;
 	text-align: center;
 	content: 'Home';
