@@ -112,7 +112,7 @@ h4{
 
 nav{
   height: 100px;
-  background: #085078;
+  background: #08517800;
 }
 
 .nav-links{
@@ -129,7 +129,7 @@ nav{
 
 .nav-links #logo-li{
   /* margin: 3px auto 2px 10px; */
-  margin: 0px auto 0px 10px;
+  margin: 20px auto 0px 20px;
   padding: 0px !important;
 }
 
