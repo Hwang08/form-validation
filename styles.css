@@ -12,7 +12,9 @@
 }
 
 body{
-  background: linear-gradient(#085078, rgb(23, 131, 119));
+  background: #085078;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #085078, rgb(23, 131, 119));
+  background: linear-gradient(to bottom, #085078, rgb(23, 131, 119));
 }
 
 input{
@@ -31,7 +33,6 @@ textarea{
   transform: translate(-50%,-50%);
   max-width: 600px;
   width: 100%;
-  background: linear-gradient(#085078, rgb(23, 131, 119));
 
   padding: 25px;
   border-radius: 5px;
